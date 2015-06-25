@@ -211,11 +211,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "David Harris-Birtill";
+				ORGANIZATIONNAME = EDINA;
 				TargetAttributes = {
 					ABCA4F9E1A488CF400DFBCE2 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = AJ9KJ84ZFW;
+						DevelopmentTeam = 8UFDJCMUH2;
 					};
 					ABCA4FB71A488CF400DFBCE2 = {
 						CreatedOnToolsVersion = 6.1;
@@ -400,7 +400,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "LitLong Edinburgh";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,7 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "LitLong Edinburgh";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
