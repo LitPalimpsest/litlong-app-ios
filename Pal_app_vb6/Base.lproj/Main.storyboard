@@ -276,7 +276,7 @@
 
 You use this app at your own risk. Please do not use while driving.
 
-Data used in this app is from a variety of sources and therefore comes with different licences assocated with them. Mostly out of copyright texts have been sourced.
+Data used in this app is from a variety of sources and therefore comes with different licences associated with them. Mostly out of copyright texts have been sourced.
 
 
 </string>
@@ -295,7 +295,29 @@ Data used in this app is from a variety of sources and therefore comes with diff
                                     <fragment>
                                         <string key="content">
 
-http://litlong.org/about-litlong/terms-and-conditions/</string>
+http://litlong.org/about-litlong/terms-and-conditions/
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Acknowledgements:
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+http://litlong.org/about-litlong/acknowlwedgements/
+
+
+</string>
                                         <attributes>
                                             <font key="NSFont" size="14" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
