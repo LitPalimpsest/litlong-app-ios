@@ -260,24 +260,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viJ-8V-azR">
-                                <rect key="frame" x="16" y="40" width="288" height="420"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viJ-8V-azR">
+                                <rect key="frame" x="16" y="40" width="288" height="440"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Disclaimer:
+                                <attributedString key="attributedText">
+                                    <fragment content="Disclaimer:">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 
 You use this app at your own risk. Please do not use while driving.
 
-Data used in this app is from a variety of sources and therefore comes with different licences assocated with them. Mostly out of copyright texts have been sourced.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+Data used in this app is from a variety of sources and therefore comes with different licences assocated with them. Mostly out of copyright texts have been sourced.
+
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Terms &amp; Conditions:">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+http://litlong.org/about-litlong/terms-and-conditions/</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.22352941176470589" green="0.22352941176470589" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="viJ-8V-azR" firstAttribute="leading" secondItem="OrW-KZ-Lca" secondAttribute="leadingMargin" id="C9t-AV-YQR"/>
                             <constraint firstItem="viJ-8V-azR" firstAttribute="top" secondItem="cfR-2p-BoS" secondAttribute="bottom" constant="20" id="a3D-RM-6yK"/>
-                            <constraint firstAttribute="bottom" secondItem="viJ-8V-azR" secondAttribute="bottom" constant="20" symbolic="YES" id="dTT-sw-h2r"/>
+                            <constraint firstAttribute="bottom" secondItem="viJ-8V-azR" secondAttribute="bottom" id="dTT-sw-h2r"/>
                             <constraint firstItem="viJ-8V-azR" firstAttribute="trailing" secondItem="OrW-KZ-Lca" secondAttribute="trailingMargin" id="lER-Lb-pIB"/>
                         </constraints>
                     </view>
@@ -306,10 +340,18 @@ Data used in this app is from a variety of sources and therefore comes with diff
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11a-fF-ude">
-                                <rect key="frame" x="16" y="40" width="288" height="420"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11a-fF-ude">
+                                <rect key="frame" x="16" y="40" width="288" height="440"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Credits/Characters:
+                                <attributedString key="attributedText">
+                                    <fragment content="Credits/Characters:">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 
 The LitLong project was made by a team of specialists from the University of St Andrews, University of Edinburgh and EDINA, and made possible by the generous support of the AHRC.
 
@@ -328,16 +370,21 @@ Mark Haddon: Artistic Swashbuckler
 Uta Hinrichs: Visualisation Queen
 Nicola Osborne: Social Networking Chief
 Tara Thomson: Book Whisperer</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.22352941176470589" green="0.22352941176470589" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="11a-fF-ude" firstAttribute="trailing" secondItem="rv1-Gg-Toq" secondAttribute="trailingMargin" id="8he-JT-Ti0"/>
                             <constraint firstItem="11a-fF-ude" firstAttribute="top" secondItem="nld-Z5-R3C" secondAttribute="bottom" constant="20" id="B2N-ZO-4cy"/>
                             <constraint firstItem="11a-fF-ude" firstAttribute="leading" secondItem="rv1-Gg-Toq" secondAttribute="leadingMargin" id="CUd-zd-JhM"/>
-                            <constraint firstAttribute="bottom" secondItem="11a-fF-ude" secondAttribute="bottom" constant="20" symbolic="YES" id="Odk-Zw-Hri"/>
+                            <constraint firstAttribute="bottom" secondItem="11a-fF-ude" secondAttribute="bottom" id="Odk-Zw-Hri"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -366,8 +413,14 @@ Tara Thomson: Book Whisperer</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="1000" image="all_logos_image" translatesAutoresizingMaskIntoConstraints="NO" id="6pY-BF-QOZ">
+                                <rect key="frame" x="16" y="34" width="288" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="csz-Ey-pSy"/>
+                                </constraints>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfc-gd-Sa3">
-                                <rect key="frame" x="16" y="141" width="288" height="319"/>
+                                <rect key="frame" x="16" y="141" width="288" height="339"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -526,17 +579,11 @@ Proper names are tricky. Not only are there common nouns that can also function 
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="1000" image="all_logos_image" translatesAutoresizingMaskIntoConstraints="NO" id="6pY-BF-QOZ">
-                                <rect key="frame" x="16" y="34" width="288" height="95"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="csz-Ey-pSy"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.22352941176470589" green="0.22352941176470589" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
                             <constraint firstItem="qfc-gd-Sa3" firstAttribute="top" secondItem="6pY-BF-QOZ" secondAttribute="bottom" constant="12" id="6T9-qc-W5L"/>
-                            <constraint firstAttribute="bottom" secondItem="qfc-gd-Sa3" secondAttribute="bottom" constant="20" symbolic="YES" id="AKg-Sl-E2B"/>
+                            <constraint firstAttribute="bottom" secondItem="qfc-gd-Sa3" secondAttribute="bottom" id="AKg-Sl-E2B"/>
                             <constraint firstItem="qfc-gd-Sa3" firstAttribute="leading" secondItem="1i6-eV-eyE" secondAttribute="leadingMargin" id="VnW-6a-iW9"/>
                             <constraint firstItem="qfc-gd-Sa3" firstAttribute="trailing" secondItem="1i6-eV-eyE" secondAttribute="trailingMargin" id="lu8-Om-oxP"/>
                             <constraint firstItem="6pY-BF-QOZ" firstAttribute="trailing" secondItem="qfc-gd-Sa3" secondAttribute="trailing" id="qOD-re-cgT"/>
@@ -605,10 +652,10 @@ Proper names are tricky. Not only are there common nouns that can also function 
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwA-fg-PS7" userLabel="snippet_text_field">
-                                <rect key="frame" x="0.0" y="162" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="162" width="320" height="133"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="WxJ-VR-sfh"/>
+                                    <constraint firstAttribute="height" constant="133" id="WxJ-VR-sfh"/>
                                 </constraints>
                                 <string key="text">...and a sample of the revelant text on your location will appear here. Just tap the info (i) button on the location popup to get going.
 
@@ -672,7 +719,7 @@ When you've chosen your location, tap left and right to jump between extracts.</
                                 </connections>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="BTU-mq-bq1" firstAttribute="leading" secondItem="Y3a-hz-6B1" secondAttribute="leading" id="1mc-5j-Imb"/>
                             <constraint firstItem="SCS-5f-fm8" firstAttribute="top" secondItem="kUH-Og-YRF" secondAttribute="bottom" id="2yM-Nf-U8O"/>
@@ -683,11 +730,12 @@ When you've chosen your location, tap left and right to jump between extracts.</
                             <constraint firstItem="SGO-qU-wol" firstAttribute="top" secondItem="Efq-Kn-xKu" secondAttribute="bottom" id="HSj-36-PiN"/>
                             <constraint firstItem="SCS-5f-fm8" firstAttribute="trailing" secondItem="4Ma-Ue-q4s" secondAttribute="trailing" id="IRj-8h-hPA"/>
                             <constraint firstItem="JyC-Up-9Oh" firstAttribute="centerX" secondItem="SGO-qU-wol" secondAttribute="centerX" id="Ien-BC-Zdu"/>
-                            <constraint firstItem="Efq-Kn-xKu" firstAttribute="top" secondItem="BTU-mq-bq1" secondAttribute="bottom" constant="8" symbolic="YES" id="N8u-ui-yEx"/>
+                            <constraint firstItem="NwA-fg-PS7" firstAttribute="bottom" secondItem="BTU-mq-bq1" secondAttribute="bottom" id="Jk2-ZL-hEY"/>
                             <constraint firstItem="BTU-mq-bq1" firstAttribute="top" secondItem="J2G-fj-5pC" secondAttribute="top" id="NMV-AV-v3f"/>
                             <constraint firstItem="4Ma-Ue-q4s" firstAttribute="leading" secondItem="231-pn-SxG" secondAttribute="trailing" id="Tac-3M-xzz"/>
                             <constraint firstItem="kUH-Og-YRF" firstAttribute="top" secondItem="MEN-zg-tk5" secondAttribute="bottom" id="Uws-mj-SsK"/>
                             <constraint firstItem="kUH-Og-YRF" firstAttribute="leading" secondItem="SCS-5f-fm8" secondAttribute="leading" id="XcO-wR-ecb"/>
+                            <constraint firstItem="Efq-Kn-xKu" firstAttribute="top" secondItem="NwA-fg-PS7" secondAttribute="bottom" constant="8" id="dYG-D9-nch"/>
                             <constraint firstItem="BTU-mq-bq1" firstAttribute="top" secondItem="NwA-fg-PS7" secondAttribute="bottom" constant="8" id="eDc-Mm-g9u"/>
                             <constraint firstAttribute="trailing" secondItem="kUH-Og-YRF" secondAttribute="trailing" id="eIG-uu-9w7"/>
                             <constraint firstItem="NwA-fg-PS7" firstAttribute="trailing" secondItem="J2G-fj-5pC" secondAttribute="trailing" id="eME-Gp-xT3"/>
@@ -703,6 +751,11 @@ When you've chosen your location, tap left and right to jump between extracts.</
                             <constraint firstItem="Efq-Kn-xKu" firstAttribute="trailing" secondItem="J2G-fj-5pC" secondAttribute="trailing" id="yfo-qu-hzg"/>
                             <constraint firstItem="Efq-Kn-xKu" firstAttribute="leading" secondItem="SGO-qU-wol" secondAttribute="leading" id="z25-ez-xii"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="eDc-Mm-g9u"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="H9b-Dy-SXX">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="2Wp-YV-x63"/>
