@@ -13,7 +13,6 @@
 		AB61CFCD1AB055ED00EC55F2 /* NSNull+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AB61CFCC1AB055ED00EC55F2 /* NSNull+JSON.m */; };
 		AB6D6A331A9DF95100DB6710 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB6D6A321A9DF95100DB6710 /* notes.rtf */; };
 		AB828B981A77EC50008CA6CC /* test_regexp.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB828B971A77EC50008CA6CC /* test_regexp.txt */; };
-		ABAA9EB51AB30B6D0076C444 /* MapAnnotation.h in Sources */ = {isa = PBXBuildFile; fileRef = ABAA9EB41AB30B6D0076C444 /* MapAnnotation.h */; };
 		ABAA9EB71AB30C960076C444 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA9EB61AB30C960076C444 /* MapAnnotation.m */; };
 		ABCA4FA51A488CF400DFBCE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA4FA41A488CF400DFBCE2 /* main.m */; };
 		ABCA4FA81A488CF400DFBCE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCA4FA71A488CF400DFBCE2 /* AppDelegate.m */; };
@@ -278,7 +277,6 @@
 				AB61CFCD1AB055ED00EC55F2 /* NSNull+JSON.m in Sources */,
 				ABCA4FA51A488CF400DFBCE2 /* main.m in Sources */,
 				AB3F5A871A8D09660053D321 /* SWRevealViewController.m in Sources */,
-				ABAA9EB51AB30B6D0076C444 /* MapAnnotation.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

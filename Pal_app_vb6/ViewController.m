@@ -42,8 +42,8 @@
 @end
     NSMutableArray *lat_array;
     NSMutableArray *long_array;
-    int snippet_number;
-    int max_num_snippets;
+    NSUInteger snippet_number = 0;
+    NSUInteger max_num_snippets = 0;
     MapAnnotation  *current_annotation;
     
 @implementation ViewController
@@ -98,12 +98,6 @@
     if(long_array == NULL){
       long_array = [[NSMutableArray alloc] initWithCapacity:0];
     }
-    if(snippet_number == NULL){
-        snippet_number = 0;
-    }
-    if(max_num_snippets == NULL){
-        max_num_snippets = 0;
-    }
     
     //NSDate *start = [NSDate date];
     for (NSString *item in numscontentArray) {
@@ -120,7 +114,7 @@
         [long_array addObject:[NSNumber numberWithDouble:long_val]];
 
         num_mentions = [[itemArray objectAtIndex:2] integerValue];
-        num_mentions_string = [NSString stringWithFormat:@"%i", num_mentions];
+        num_mentions_string = [NSString stringWithFormat:@"%li", (long)num_mentions];
         placename = [itemArray objectAtIndex:3];
         
         NSString *str_separator = @"_";
@@ -283,7 +277,7 @@
     
     _snippet_text.text = closestAnnotation.title;
     _text_view_nav_menu.title = closestAnnotation.title;
-    current_annotation = closestAnnotation;
+    current_annotation = (MapAnnotation *)closestAnnotation;
     //NSString *distanceString = [NSString stringWithFormat: @"%f", smallestDistance];
     return closestAnnotation;
 }
@@ -297,8 +291,8 @@
     region.span.latitudeDelta = spanX;
     region.span.longitudeDelta = spanY;
     [self.mapView setRegion:region animated:YES];
-    MKPointAnnotation *closest_annotation;
-    closest_annotation = [self closestAnnotation];
+    MapAnnotation *closest_annotation;
+    closest_annotation = (MapAnnotation *)[self closestAnnotation];
     [self snippetdetail:(closest_annotation)];
     //_snippet_text.text = self.closestAnnotation.subtitle;
 
