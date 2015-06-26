@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C20E45D1B3D67EF001BA165 /* Edinburgh.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3C20E45C1B3D67EF001BA165 /* Edinburgh.gpx */; };
 		AB01B1CD1AA89A2200C6F65A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB01B1CC1AA89A2200C6F65A /* LaunchScreen.xib */; };
 		AB3F5A871A8D09660053D321 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3F5A861A8D09660053D321 /* SWRevealViewController.m */; };
 		AB3F5A8A1A8D161E0053D321 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3F5A891A8D161E0053D321 /* NavigationViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C20E45C1B3D67EF001BA165 /* Edinburgh.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Edinburgh.gpx; sourceTree = "<group>"; };
 		AB01B1CC1AA89A2200C6F65A /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		AB3F5A851A8D09660053D321 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		AB3F5A861A8D09660053D321 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		ABCA4FA11A488CF400DFBCE2 /* Pal_app_vb6 */ = {
 			isa = PBXGroup;
 			children = (
+				3C20E45C1B3D67EF001BA165 /* Edinburgh.gpx */,
 				ABAA9EB41AB30B6D0076C444 /* MapAnnotation.h */,
 				ABAA9EB61AB30C960076C444 /* MapAnnotation.m */,
 				ABCA4FA61A488CF400DFBCE2 /* AppDelegate.h */,
@@ -248,6 +251,7 @@
 			files = (
 				ABCA4FAE1A488CF400DFBCE2 /* Main.storyboard in Resources */,
 				AB828B981A77EC50008CA6CC /* test_regexp.txt in Resources */,
+				3C20E45D1B3D67EF001BA165 /* Edinburgh.gpx in Resources */,
 				ABCA6A9F1AC8702A00ADF87E /* outputs in Resources */,
 				AB6D6A331A9DF95100DB6710 /* notes.rtf in Resources */,
 				ABCA4FB01A488CF400DFBCE2 /* Images.xcassets in Resources */,
